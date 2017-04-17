@@ -2,9 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import {App} from './App'
 
-
-
-
 const rocket2 = {
     height: '400px'
 }
