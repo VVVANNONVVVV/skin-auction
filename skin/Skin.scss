@@ -3,6 +3,7 @@
   min-width: 276px;
   max-width: 300px;
   margin: 10px;
+  padding: 10px;
 }
 .skins{
   display: flex;
@@ -27,8 +28,19 @@
 }
 .add-to-cart{
   background-color: #d5622c;
+  width: 44px;
+  text-align: center;
 }
 .actions{
   display: flex;
   justify-content: center;
+}
+.pattern{
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  background-image: url("https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-7.jpg");
+  background-size: cover;
+  color: white;
 }

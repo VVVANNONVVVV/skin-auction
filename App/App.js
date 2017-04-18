@@ -1,8 +1,10 @@
 import React from 'react'
-import {Rocket} from './rocket'
-import {Counter} from './counter'
-import {Amount}  from "./amount"
-import {Skin} from './skin'
+import {Rocket} from '../rocket'
+import {Counter} from '../counter'
+import {Amount}  from "../amount"
+import {Skin} from '../skin/skin'
+import {Menu} from '../menu/menu'
+import {Footer} from "../footer/footer"
 
 const rocket1 = {
     height: '100px'
@@ -60,6 +62,7 @@ export class App extends React.Component {
                 {/*onBet={this.removeValue}*/}
                 {/*cash={this.state.cash}*/}
                 {/*value={this.state.betValue}/>*/}
+                <Menu></Menu>
                 <div className="skins">
                     {skins.map((skin, key) => {
                         return <Skin name={skin.name}
@@ -68,6 +71,7 @@ export class App extends React.Component {
                                      key={key}/>
                     })}
                 </div>
+                <Footer></Footer>
             </div>
         )
     }

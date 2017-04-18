@@ -20,8 +20,11 @@ export class Skin extends React.Component {
                     <div className="btn inspect">
                         Inspect</div>
                     <div className="btn add-to-cart">
-                        Add to Cart
+                        Sell
                     </div>
+                </div>
+                <div className="pattern">
+                    Pattern
                 </div>
             </div>
 
