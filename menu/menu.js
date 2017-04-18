@@ -1,23 +1,26 @@
 import React from 'react'
 import './menu.scss'
+import {Link} from 'react-router-dom'
 
 export class Menu extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
     }
 
-    render(){
-        return(
+    render() {
+        return (
             <div className="menu">
-                <img className="logo" src="https://vignette2.wikia.nocookie.net/gtawiki/images/9/9a/PlayStation_1_Logo.png/revision/latest?cb=20100130082645" alt=""/>
-            <div className="my-profile">
-                My Profile
-            </div>
+                <img className="logo"
+                     src="https://vignette2.wikia.nocookie.net/gtawiki/images/9/9a/PlayStation_1_Logo.png/revision/latest?cb=20100130082645"
+                     alt=""/>
+                <div className="my-profile">
+                    <Link to="/">My Profile</Link>
+                </div>
                 <div className="sell-skins">
-                    Sell Skins
+                    <Link to="/sell-skins">Sell Skins</Link>
                 </div>
                 <div className="faq">
-                    FAQ
+                    <Link to='/faq'>FAQ</Link>
                 </div>
                 <div className="help">
                     Help
