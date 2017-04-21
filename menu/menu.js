@@ -23,7 +23,7 @@ export class Menu extends React.Component {
                     <Link to='/faq'>FAQ</Link>
                 </div>
                 <div className="help">
-                    Help
+                    <Link to='/help'>Help</Link>
                 </div>
             </div>
         )

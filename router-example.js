@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import {Home} from './Home/Home'
 import {Faq} from './Faq/Faq'
+import {Help} from './Help/Help'
 
 const SellSkins = () => (
     <div>
@@ -17,6 +18,7 @@ const Routing = () => (
             <Route exact path="/" component={Home}/>
             <Route path="/sell-skins" component={SellSkins}/>
             <Route path="/faq" component={Faq}/>
+            <Route path="/help" component={Help}/>
         </div>
     </Router>
 )
