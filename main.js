@@ -14,7 +14,3 @@ function onPlayerStop() {
 }
 
 ReactDOM.render(<App/>, document.getElementById('a'))
-
-var objPeople = [
-
-]
